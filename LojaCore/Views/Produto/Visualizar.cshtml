@@ -1,0 +1,18 @@
+﻿@model LojaCore.Models.Produto
+    Produto --> Visualizar
+<br />
+Razor:
+@{ 
+    string nome = "Rafael Ferreira";
+}
+<br />
+<h3>@nome</h3>
+<h2>Produto</h2>
+<b>Nome:</b> @Model.Nome
+<b>Codigo:</b> @Model.Id
+<b>Descricao:</b> @Model.Descricao
+<b>Valor:</b> @Model.Valor.ToString("C")
+
+<br />
+Direitos reservados &copy; @DateTime.Now.Year
+
